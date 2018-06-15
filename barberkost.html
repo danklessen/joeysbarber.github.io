@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta name="desription" Content="Med en barberkost kan du lave din favorit barbercreme eller barbersæbe om til en lækker cremet skum.">
+    <meta name=author Content="Patrick Blachgaard">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barberkost | Joey’s Barber</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+    <header id="heightchange">
+        <div class="pole">
+        </div>
+        <a href="index.html"><img class="joeylogo" src="images/logo.png" alt="Logoet for barbersalonen Joey's Barber"></a>
+        
+        <a href="#"><img class="account" src="images/account.png" alt="Logoet for barbersalonen Joey's Barber"></a><p class="accountp">Min konto</p>
+        
+        <a href="#"><img class="cart" src="images/cart.png" alt="Logoet for barbersalonen Joey's Barber"><p class="cartp">0 varer</p></a>
+        
+        <a href="#"><img class="account2" src="images/account.png" alt="Logoet for barbersalonen Joey's Barber"></a><p class="accountp2">Min konto</p>
+        
+        <a href="#"><img class="cart2" src="images/cart.png" alt="Logoet for barbersalonen Joey's Barber"><p class="cartp2">0 varer</p></a>
+        
+        <nav>
+            <div class="nav">
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle" />
+                <div class="menu">
+                    <a href="index.html" title="Gå til Forside">Forside</a>
+                    <a href="om.html" title="Gå til Om Joey's Barber">Om Joey's barber</a>
+                    <a href="priser.html" title="Gå til Priser">Priser</a>
+                    <a class="box" href="book.html" title="Gå til Book en tid">Book en tid</a>
+                    <a href="shop.html" title="Gå til vores shop">Shop</a>
+                    <a href="kontakt.html" title="Gå til Kontakt">Kontakt</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+   
+   
+    <!-- Snippet fra "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_pricing_table" -->
+    
+	<p id="sitemap"><a href="index.html">Hjem</a> > <a href="shop.html">Shop</a> > Barberkost</p>
+<div id="list">
+        <div class="product">
+            <ul class="shopprice">
+                <a href="images/brush_large.png" target="_blank" title="Vis stort billede"><picture>
+            <source media="(min-width: 1024px)" srcset="images/brush_large.png">
+            <img src="images/brush.png" alt="Barberkost">
+					</picture></a>
+            </ul>
+        </div>
+        
+        <div class="product color">
+            <ul class="productprice">
+                <li class="header">Barberkost</li>
+                <li class="grey">99 DKK</li>
+				<p>Med en <a href="#">barberkost</a> kan du lave din favorit <a href="#">barbercreme</a> eller <a href="#">barbersæbe</a> om til en lækker cremet skum. Det er en fornøjelse at fordele barberskummet med en ordentlig barberkost. Tankerne ledes mod en klassisk barbering i en rigtig barbersalon, når du påfører dit barberskum med traditionel børste. Perfekt til feinschmeckeren eller gentlemen, der går op i sig selv og aldrig går ned på udstyr.<br><br>
+
+Børstehårene virker exfoilerende på huden og løfter samtidig skægstubbene, så barberskummen kan komme ind under de små hår. Det sikrer dig, at barberskummet kan trænge ind og blødgøre både skæg og hud. Din skraber kan dermed få fat i selv de mindste hår og du får således en glat, tæt og behagelig barbering hver gang.</p>
+                
+    <a class="move">Antal:</a>
+
+<select class="quantity" id="quantity" name="quantity">
+<option value="{{ i }}">1</option>
+<option value="{{ i }}">2</option>
+<option value="{{ i }}">3</option>
+<option value="{{ i }}">4</option>
+<option value="{{ i }}">5</option>
+<option value="{{ i }}">6</option>
+</select>
+                
+             
+                <a href="#" class="addtobasket" title="Læg i kurv">Læg i kurv</a>
+
+            </ul>
+	</div></div>
+        <hr>
+        
+        <h1 class="shophead">Relaterede produkter</h1>
+    <p class="shopgraph">Produkter du sikkert også vil synes om!</p>
+      
+      <div id="pricelist">
+  
+        <div class="shopcolumns border">
+            <ul class="shopprice">
+                <li class="header">Skægpleje</li>
+				<a href="barberkost.html" title="Vis produkt"><img src="images/beardoil.png"></a>
+                <li>Jojoba olie – for skæg- og hudpleje</li>
+                <li class="grey">149 DKK</li>
+                <li class="grey"><a href="#" class="button" title="Læg i kurv">Læg i kurv</a></li>
+            </ul>
+        </div>
+        
+        <div class="shopcolumns border">
+            <ul class="shopprice">
+                <li class="header">Shaving cream</li>
+				<a href="barberkost.html" title="Vis produkt"><img src="images/shaving-gel.png"></a>
+                <li>Skeyndor barberskum</li>
+                <li class="grey">129 DKK</li>
+                <li class="grey"><a href="#" class="button" title="Læg i kurv">Læg i kurv</a></li>
+            </ul>
+        </div>
+        
+        <div class="shopcolumns border">
+            <ul class="shopprice">
+                <li class="header">Barberskraber</li>
+				<a href="barberkost.html" title="Vis produkt"><img src="images/razor-blade.png"></a>
+                <li>Old school barberskraber</li>
+                <li class="grey">299 DKK</li>
+                <li class="grey"><a href="#" class="button" title="Læg i kurv">Læg i kurv</a></li>
+            </ul>
+        </div>
+        
+        <div class="shopcolumns border">
+            <ul class="shopprice">
+                <li class="header">Barberkniv</li>
+				<a href="barberkost.html" title="Vis produkt"><img src="images/black-blade.png"></a>
+                <li>Eurostil barberkniv</li>
+                <li class="grey">139 DKK</li>
+                <li class="grey"><a href="#" class="button" title="Læg i kurv">Læg i kurv</a></li>
+            </ul>
+        </div>
+	</div>
+        
+    <footer>
+        <div>
+            <p>Thorvaldsensgade 30<br>8000 Aarhus C</p>
+            <p>Tlf. 86 23 22 22</p>
+            <p>kontakt@joeysbarber.dk</p>
+        </div>
+        <div>
+            <p>Man-Ons: 10-16</p>
+            <p>Tors-Fre: 10-18</p>
+            <p>Lør: 10-14</p>
+            <p>Søn: Lukket</p>
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com/joeysbarber/" target="_blank"><img src="images/instagram.png" alt="Instagram side for Joey's Barber"></a>
+            <a href="https://www.facebook.com/Joeysbarber30/" target="_blank"><img src="images/facebook.png" alt="Facebook side for Joey's Barber"></a>
+        </div>
+        
+        <a href="#0" class="cd-top js-cd-top">Top</a>
+              <script src="js/main.js"></script> <!-- Resource JavaScript -->
+        
+    </footer>
+</body>
+</html>
