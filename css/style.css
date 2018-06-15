@@ -1284,6 +1284,11 @@ footer {
 	.content3 p {
 		margin-left: 10%;
 	}
+	
+	.content3 {
+	background-image: url(../images/insta-bg.png);
+
+}
 	form {
 		max-width: 500px;
 	}
