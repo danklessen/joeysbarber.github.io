@@ -263,7 +263,7 @@ label {
 .content3 {
 	text-align: center;
 	padding: 32px;
-	background-image: url(/images/insta-bg.png);
+	background-image: url(../images/insta-bg.png);
 	border-bottom: 10px solid grey;
 }
 
